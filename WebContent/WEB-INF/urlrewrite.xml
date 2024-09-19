@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE urlrewrite
+    PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
+    "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+    <!-- 给指定文件改名 -->
+<urlrewrite>
+    <rule>
+        <from>/Again.error</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/ErrorIndex.jsp</to> 
+    </rule>
+    <rule>
+        <from>/Index.index</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Index.jsp</to> 
+    </rule>
+    <rule>
+        <from>/Base.index</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Base.jsp</to> 
+    </rule>
+    <rule>
+        <from>/Error.index</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Base2.jsp</to> 
+    </rule>
+    <rule>
+        <from>/Signup.register</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Register.jsp</to> 
+    </rule>
+    <rule>
+        <from>/Archives.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Archives.jsp</to> 
+    </rule>
+    <rule>
+        <from>/System.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/System.jsp</to> 
+    </rule>
+    <rule>
+        <from>/Testing.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Testing.jsp</to> 
+    </rule>
+    <rule>
+        <from>/About.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/About.jsp</to> 
+    </rule>
+    <rule>
+        <from>/Robot.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Robot.jsp</to> 
+    </rule>
+    <rule>
+        <from>/AccountInfo.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/AccountInfo.jsp</to> 
+    </rule>
+    <rule>
+        <from>/Notindex.v</from>  
+        <to type="forward">/Notindex.jsp</to> 
+    </rule>
+    <rule>
+        <from>/StuMsgShow.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/StuMsgShow.jsp</to> 
+    </rule>
+    <rule>
+        <from>/StuMsgSuccess.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/StuMsgSuccess.jsp</to> 
+    </rule>
+    <rule>
+        <from>/StuMsgError.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/StuMsgError.jsp</to> 
+    </rule>
+    <rule>
+        <from>/MovieIndexJsp.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Movie_Index.jsp</to> 
+    </rule>
+    <rule>
+        <from>/MovieAllJsp.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Movie_All.jsp</to> 
+    </rule>
+    <rule>
+        <from>/Rootinfo.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Movie_Rootinfo.jsp</to> 
+    </rule>
+    <rule>
+        <from>/Userinfo.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Movie_Userinfo.jsp</to> 
+    </rule>
+    <rule>
+        <from>/VIPinfo.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Movie_VIPinfo.jsp</to> 
+    </rule>
+    <rule>
+        <from>/SelectAllUsers.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Movie_Feature1Users.jsp</to> 
+    </rule>
+    <rule>
+        <from>/AddOneMovie.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Movie_Feature2AddMovie.jsp</to> 
+    </rule>
+    <rule>
+        <from>/DeleteOneMovie.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Movie_Feature3DeleteMovie.jsp</to> 
+    </rule>
+    <rule>
+        <from>/AddOneReview.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Movie_Feature4AddReview.jsp</to> 
+    </rule>
+    <rule>
+        <from>/ReviewsOfOneMovie.v</from>  
+        <to type="forward">/V2beach1024/Views-JavaServerPages/Movie_ReviewsOfOneMovie.jsp</to> 
+    </rule>
+</urlrewrite>
